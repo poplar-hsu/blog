@@ -9,12 +9,12 @@ module.exports = {
       local: [
         // 图 1
         {
-          path: '/blog/img/home-bg/1.jpg',
+          path: '/img/home-bg/1.jpg',
           mask: 'rgba(40, 57, 101, .4)',
         },
         // 图 2
         {
-          path: '/blog/img/home-bg/2.jpg',
+          path: '/img/home-bg/2.jpg',
           mask: 'rgb(251, 170, 152, .2)',
         },
       ],
@@ -24,7 +24,7 @@ module.exports = {
       name: 'Shaul Xu',
 
       // 必须：头像，将在首页和移动端侧边栏显示
-      avatar: '/blog/img/avatar.jpeg',
+      avatar: '/img/avatar.jpeg',
 
       // 必须：个人简介，将在首页显示
       description: "Shaul Xu's Blog",
@@ -55,7 +55,7 @@ module.exports = {
 
         // 可选：标签页封面图路径和蒙版
         bgImage: {
-          path: '/blog/img/pages/tags.jpg',
+          path: '/img/pages/tags.jpg',
           mask: 'rgba(211, 136, 37, .5)',
         },
       },
@@ -67,7 +67,7 @@ module.exports = {
 
         // 可选：链接页封面图路径和蒙版
         bgImage: {
-          path: '/blog/img/pages/links.jpg',
+          path: 'img/pages/links.jpg',
           mask: 'rgba(64, 118, 190, 0.5)',
         },
       },
@@ -77,10 +77,10 @@ module.exports = {
     // searchPlaceholder: '$ grep ...', // 可选：搜索栏占位文本，默认："$ grep ..."
     // searchIcon: 'ri-search-2-line', // 可选：搜索图标
     footer: `
-      &copy; <a href="https://github.com/Renovamen" target="_blank">Renovamen</a> 2018-2021
+      &copy; Renovamen 2018-2021
       <br>
       Powered by <a href="https://vuepress.vuejs.org" target="_blank">VuePress</a> &
-      <a href="https://github.com/Renovamen/vuepress-theme-gungnir" target="_blank">Gungnir</a>
+      Gungnir
     `,
     readingTime: {
       excludes: ['/url1', '/url2/.*'], // 不需要进行统计的页面路径，默认为 ["/tags/.*", "/links"]

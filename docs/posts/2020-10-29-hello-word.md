@@ -176,7 +176,7 @@ sequenceDiagram
 
 ## Images
 
-![Image Example](/img/home-bg/3.jpg)
+![Image Example](/blog/img/home-bg/3.jpg)
 
 ## Maths
 
