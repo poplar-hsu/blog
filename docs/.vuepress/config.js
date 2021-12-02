@@ -9,12 +9,12 @@ module.exports = {
       local: [
         // 图 1
         {
-          path: '/img/home-bg/1.jpg',
+          path: '/blog/img/home-bg/1.jpg',
           mask: 'rgba(40, 57, 101, .4)',
         },
         // 图 2
         {
-          path: '/img/home-bg/2.jpg',
+          path: '/blog/img/home-bg/2.jpg',
           mask: 'rgb(251, 170, 152, .2)',
         },
       ],
@@ -24,7 +24,7 @@ module.exports = {
       name: 'Shaul Xu',
 
       // 必须：头像，将在首页和移动端侧边栏显示
-      avatar: '/img/avatar.jpeg',
+      avatar: '/blog/img/avatar.jpeg',
 
       // 必须：个人简介，将在首页显示
       description: "Shaul Xu's Blog",
@@ -55,7 +55,7 @@ module.exports = {
 
         // 可选：标签页封面图路径和蒙版
         bgImage: {
-          path: '/img/pages/tags.jpg',
+          path: '/blog/img/pages/tags.jpg',
           mask: 'rgba(211, 136, 37, .5)',
         },
       },
@@ -67,7 +67,7 @@ module.exports = {
 
         // 可选：链接页封面图路径和蒙版
         bgImage: {
-          path: '/img/pages/links.jpg',
+          path: '/blog/img/pages/links.jpg',
           mask: 'rgba(64, 118, 190, 0.5)',
         },
       },
@@ -98,16 +98,7 @@ module.exports = {
       all: true, // 全部启用
     },
     analytics: {
-      ba: `<script>
-      var _hmt = _hmt || [];
-      (function() {
-        var hm = document.createElement("script");
-        hm.src = "https://hm.baidu.com/hm.js?2de834fcfa39bf6670ef2957dda44b17";
-        var s = document.getElementsByTagName("script")[0]; 
-        s.parentNode.insertBefore(hm, s);
-      })();
-      </script>
-      `,
+      ba: '2de834fcfa39bf6670ef2957dda44b17',
     },
   },
   plugins: [
@@ -120,16 +111,7 @@ module.exports = {
     [
       '@renovamen/vuepress-plugin-baidu-tongji',
       {
-        ba: `<script>
-      var _hmt = _hmt || [];
-      (function() {
-        var hm = document.createElement("script");
-        hm.src = "https://hm.baidu.com/hm.js?2de834fcfa39bf6670ef2957dda44b17";
-        var s = document.getElementsByTagName("script")[0]; 
-        s.parentNode.insertBefore(hm, s);
-      })();
-      </script>
-      `,
+        ba: '2de834fcfa39bf6670ef2957dda44b17',
       },
     ],
   ],
