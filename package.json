@@ -1,0 +1,27 @@
+{
+  "name": "shaul-blog",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "shaul xu",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs"
+  },
+  "prettier": {
+    "semi": false,
+    "singleQuote": true,
+    "trailingComma": "es5"
+  },
+  "dependencies": {
+    "@renovamen/vuepress-plugin-baidu-tongji": "^0.2.0",
+    "@renovamen/vuepress-plugin-katex": "^0.2.0",
+    "@renovamen/vuepress-plugin-md-plus": "^0.2.0",
+    "@renovamen/vuepress-plugin-mermaid": "^0.3.0",
+    "@renovamen/vuepress-plugin-reading-time": "^0.2.0",
+    "vuepress": "^1.8.2",
+    "vuepress-plugin-chart": "^0.3.0",
+    "vuepress-plugin-roughviz": "^0.2.0",
+    "vuepress-theme-gungnir": "^0.2.1"
+  }
+}
