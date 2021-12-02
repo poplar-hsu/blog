@@ -1,3 +1,4 @@
 docs/.vuepress/dist/
+build/
 
 node_modules/

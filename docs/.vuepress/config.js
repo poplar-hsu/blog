@@ -1,5 +1,6 @@
 module.exports = {
   base: '/blog/',
+  dest: 'build',
   title: "Shaul Xu's Blog",
   theme: 'gungnir',
   themeConfig: {
