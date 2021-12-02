@@ -77,7 +77,7 @@ module.exports = {
     // searchPlaceholder: '$ grep ...', // 可选：搜索栏占位文本，默认："$ grep ..."
     // searchIcon: 'ri-search-2-line', // 可选：搜索图标
     footer: `
-      &copy; Renovamen 2018-2021
+      &copy; Shaul-Xu 2018-2021
       <br>
       Powered by <a href="https://vuepress.vuejs.org" target="_blank">VuePress</a> &
       Gungnir
