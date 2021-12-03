@@ -4,6 +4,20 @@ module.exports = {
   title: "Shaul Xu's Blog",
   theme: 'gungnir',
   themeConfig: {
+    locales: {
+      '/': {
+        label: 'English',
+        selectText: 'Languages',
+        nav: require('./configs/nav/en'),
+        sidebar: require('./configs/sidebar/en'),
+      },
+      '/zh/': {
+        label: '简体中文',
+        selectText: '选择语言',
+        nav: require('./configs/nav/zh'),
+        sidebar: require('./configs/sidebar/zh'),
+      },
+    },
     homeHeaderImages: {
       // 可选：首页本地封面图路径和蒙版
       local: [
@@ -73,9 +87,9 @@ module.exports = {
       },
     },
     search: true, // 可选：是否启用搜索，默认：true
-    // searchMaxSuggestions: 10, // 可选：搜索的最大结果数，默认：10
-    // searchPlaceholder: '$ grep ...', // 可选：搜索栏占位文本，默认："$ grep ..."
-    // searchIcon: 'ri-search-2-line', // 可选：搜索图标
+    searchMaxSuggestions: 10, // 可选：搜索的最大结果数，默认：10
+    searchPlaceholder: '$ grep ...', // 可选：搜索栏占位文本，默认："$ grep ..."
+    searchIcon: 'ri-search-2-line', // 可选：搜索图标
     footer: `
       &copy; Shaul-Xu 2018-2021
       <br>
