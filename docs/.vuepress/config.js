@@ -2,6 +2,17 @@ module.exports = {
   base: '/blog/',
   dest: 'build',
   title: "Shaul Xu's Blog",
+  description: "Shaul Xu's Blog",
+  head: [
+    ['link', { rel: 'icon', href: '/img/logo.svg' }],
+    [
+      'meta',
+      {
+        name: 'viewport',
+        content: 'width=device-width,initial-scale=1,user-scalable=no',
+      },
+    ],
+  ],
   theme: 'gungnir',
   themeConfig: {
     locales: {
@@ -81,7 +92,7 @@ module.exports = {
 
         // 可选：链接页封面图路径和蒙版
         bgImage: {
-          path: 'img/pages/links.jpg',
+          path: '/img/pages/links.jpg',
           mask: 'rgba(64, 118, 190, 0.5)',
         },
       },
