@@ -139,5 +139,11 @@ module.exports = {
         ba: '2de834fcfa39bf6670ef2957dda44b17',
       },
     ],
+    [
+      '@vuepress/plugin-google-analytics',
+      {
+        ga: 'G-FXV7B698HP',
+      },
+    ],
   ],
 }
